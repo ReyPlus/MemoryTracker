@@ -1,6 +1,8 @@
 # MemoryTracker
 A single-header implementation adding tracking of dynamic memory allocation and deallocation.
 
+**DISCLAIMER: NEW(type) and DELETE(type) don't currently work with dynamically allocated arrays.**
+
 ## To use
 1. Add header file to project files.
 2. #define TRACKMEM 1 to track memory.
